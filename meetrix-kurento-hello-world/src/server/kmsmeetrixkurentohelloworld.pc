@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/kurento/modules/meetrixkurentohelloworld
+
+Name: kmsmeetrixkurentohelloworld
+Description: Kurento meetrixkurentohelloworld Module
+Version: 0.0.1-dev
+URL:
+Requires: kmscore  kmselements  kmsfilters  
+Requires.private:
+Libs: -L${libdir} -lkmsmeetrixkurentohelloworldimpl
+Libs.private:
+CFlags: -I${includedir}

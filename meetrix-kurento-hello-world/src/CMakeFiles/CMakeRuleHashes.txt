@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+37d73c7bd1cc98a8299c30342214dc2d server/cpp_interface.generated
+b0f4dbdc2b74f74e85fea3483a0bc77c server/cpp_interface_internal.generated
+e3fda82bc1a51d46b0a795b0545b5d2d server/cpp_module.generated
+d39f1168d1c5ad91e49cdb694cd43ef6 server/cpp_server_internal.generated
+e493f76d925372759cc02c3ecdd0faa4 server/meetrixkurentohelloworld.kmd.json

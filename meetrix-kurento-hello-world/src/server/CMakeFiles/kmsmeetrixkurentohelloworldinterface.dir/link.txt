@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkmsmeetrixkurentohelloworldinterface.a  CMakeFiles/kmsmeetrixkurentohelloworldinterface.dir/interface/generated-cpp/MeetrixKurentoHelloWorldInternal.cpp.o CMakeFiles/kmsmeetrixkurentohelloworldinterface.dir/interface/generated-cpp/MeetrixKurentoHelloWorld.cpp.o
+/usr/bin/ranlib libkmsmeetrixkurentohelloworldinterface.a

@@ -1,0 +1,15 @@
+/tmp/meetrix-kurento-hello-world/src/CMakeFiles/install.dir
+/tmp/meetrix-kurento-hello-world/src/CMakeFiles/list_install_components.dir
+/tmp/meetrix-kurento-hello-world/src/CMakeFiles/install/strip.dir
+/tmp/meetrix-kurento-hello-world/src/CMakeFiles/install/local.dir
+/tmp/meetrix-kurento-hello-world/src/CMakeFiles/rebuild_cache.dir
+/tmp/meetrix-kurento-hello-world/src/CMakeFiles/edit_cache.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/edit_cache.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/kmsmeetrixkurentohelloworldinterface.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/rebuild_cache.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/kmsmeetrixkurentohelloworldimpl.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/install.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/list_install_components.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/kmsmeetrixkurentohelloworldmodule.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/install/local.dir
+/tmp/meetrix-kurento-hello-world/src/server/CMakeFiles/install/strip.dir
