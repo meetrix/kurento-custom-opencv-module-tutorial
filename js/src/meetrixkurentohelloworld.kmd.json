@@ -1,0 +1,63 @@
+{
+  "name": "meetrixkurentohelloworld",
+  "version": "0.0.1-dev",
+  "kurentoVersion": "^6.0.0",
+  "imports": [
+    {
+      "name": "core",
+      "version": "^6.0.0",
+      "mavenVersion": "[6.0.0,7.0.0-SNAPSHOT)",
+      "npmVersion": ">=6.0.0 <7.0.0"
+    },
+    {
+      "name": "elements",
+      "version": "^6.0.0",
+      "mavenVersion": "[6.0.0,7.0.0-SNAPSHOT)",
+      "npmVersion": ">=6.0.0 <7.0.0"
+    },
+    {
+      "name": "filters",
+      "version": "^6.0.0",
+      "mavenVersion": "[6.0.0,7.0.0-SNAPSHOT)",
+      "npmVersion": ">=6.0.0 <7.0.0"
+    }
+  ],
+  "code": {
+    "api": {
+      "java": {
+        "mavenGroupId": "org.kurento.module",
+        "mavenArtifactId": "meetrixkurentohelloworld",
+        "mavenVersion": "0.0.1-SNAPSHOT",
+        "packageName": "org.kurento.module.meetrixkurentohelloworld"
+      },
+      "js": {
+        "nodeName": "kurento-module-meetrixkurentohelloworld",
+        "npmVersion": "0.0.1",
+        "npmDescription": ""
+      }
+    },
+    "implementation": {
+      "cppNamespace": "kurento::module::meetrixkurentohelloworld",
+      "lib": "libkmsmeetrixkurentohelloworld"
+    }
+  },
+  "remoteClasses": [
+    {
+      "name": "MeetrixKurentoHelloWorld",
+      "doc": "MeetrixKurentoHelloWorld interface. Documentation about the module",
+      "extends": "OpenCVFilter",
+      "constructor": {
+        "params": [
+          {
+            "name": "mediaPipeline",
+            "doc": "the parent :rom:cls:`MediaPipeline`",
+            "type": "MediaPipeline"
+          }
+        ],
+        "doc": "Create an element"
+      }
+    }
+  ],
+  "complexTypes": [],
+  "events": []
+}
