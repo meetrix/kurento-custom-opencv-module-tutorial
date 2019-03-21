@@ -31,8 +31,8 @@ void MeetrixKurentoHelloWorldOpenCVImpl::process (cv::Mat &mat)
 void MeetrixKurentoHelloWorldOpenCVImpl::setText(const std::string &text, const int x, const int y)
 {
     textToPrint= text;
-    pointXToPrint= x;
-    pointYToPrint= y;
+    positionX= x;
+    positionY= y;
 }
 
 
