@@ -201,7 +201,6 @@ function start(sessionId, ws, sdpOffer, callback) {
                     setInterval(function(){
                       filter.setText("Hello Guys", Math.floor(Math.random() * Math.floor(200)), Math.floor(Math.random() * Math.floor(200)),function(){console.log("Set Text Called")});
                     }, 500);
-                  setTimeout(function(){ alert("Hello"); }, 3000);filter.setText()
 
                     webRtcEndpoint.on('OnIceCandidate', function(event) {
                         var candidate = kurento.getComplexType('IceCandidate')(event.candidate);
