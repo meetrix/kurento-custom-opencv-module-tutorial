@@ -199,7 +199,7 @@ function start(sessionId, ws, sdpOffer, callback) {
                         return callback(error);
                     }
                     setInterval(function(){
-                      filter.setText("Hello Guys", Math.floor(Math.random() * Math.floor(200)), Math.floor(Math.random() * Math.floor(200)));
+                      filter.setText("Hello Guys", Math.floor(Math.random() * Math.floor(200)), Math.floor(Math.random() * Math.floor(200)),function(){console.log("Set Text Called")});
                     }, 500);
                   setTimeout(function(){ alert("Hello"); }, 3000);filter.setText()
 
