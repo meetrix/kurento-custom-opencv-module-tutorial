@@ -12,6 +12,9 @@ namespace meetrixkurentohelloworld
 
 MeetrixKurentoHelloWorldOpenCVImpl::MeetrixKurentoHelloWorldOpenCVImpl ()
 {
+    textToPrint = "Hello From Meetrix";
+    positionX = 100;
+    positionY = 100;
 }
 
 /*
@@ -21,8 +24,15 @@ MeetrixKurentoHelloWorldOpenCVImpl::MeetrixKurentoHelloWorldOpenCVImpl ()
  */
 void MeetrixKurentoHelloWorldOpenCVImpl::process (cv::Mat &mat)
 {
-    cv::Point textOrg(100, 100);
-    putText( mat, "Hello from Meetrix.IO", textOrg, 1, 2, cv::Scalar(0, 0, 0) );
+    cv::Point textOrg(positionX, positionY);
+    putText( mat, textToPrint, textOrg, 1, 2, cv::Scalar(0, 0, 0) );
+}
+
+void MeetrixKurentoHelloWorldOpenCVImpl::setText(const std::string &text, const int x, const int y)
+{
+    textToPrint= text;
+    pointXToPrint= x;
+    pointYToPrint= y;
 }
 
 

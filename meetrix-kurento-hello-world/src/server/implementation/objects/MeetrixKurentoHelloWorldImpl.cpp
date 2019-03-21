@@ -38,6 +38,11 @@ MeetrixKurentoHelloWorldImpl::StaticConstructor::StaticConstructor()
                            GST_DEFAULT_NAME);
 }
 
+void MeetrixKurentoHelloWorldImpl::setText(const std::string &text, const int x, const int y)
+{
+    MeetrixKurentoHelloWorldOpenCVImpl::setText(text, x, y);
+}
+
 } /* meetrixkurentohelloworld */
 } /* module */
 } /* kurento */

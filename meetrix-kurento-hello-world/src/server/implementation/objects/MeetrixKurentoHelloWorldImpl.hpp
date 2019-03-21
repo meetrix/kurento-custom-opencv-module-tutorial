@@ -53,6 +53,7 @@ public:
                        Json::Value &response);
 
   virtual void Serialize (JsonSerializer &serializer);
+  void setText(const std::string &text, const int x, const int y);
 
 private:
 

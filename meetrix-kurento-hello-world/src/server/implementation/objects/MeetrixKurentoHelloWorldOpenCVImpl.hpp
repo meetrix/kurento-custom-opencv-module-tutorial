@@ -17,13 +17,19 @@ namespace meetrixkurentohelloworld
 class MeetrixKurentoHelloWorldOpenCVImpl : public virtual OpenCVProcess
 {
 
-public:
+private:
+  std::string textToPrint;
+  int positionX;
+  int positionY;
 
+public:
   MeetrixKurentoHelloWorldOpenCVImpl ();
 
   virtual ~MeetrixKurentoHelloWorldOpenCVImpl () {};
 
   virtual void process (cv::Mat &mat);
+
+  void setText(const std::string &text, const int x, const int y);
 
 };
 

@@ -5,16 +5,39 @@
       "extends": "OpenCVFilter",
       "doc": "MeetrixKurentoHelloWorld interface. Documentation about the module",
       "constructor": {
-	"doc": "Create an element",
-	"params": [
-	  {
-	    "name": "mediaPipeline",
-	    "doc": "the parent :rom:cls:`MediaPipeline`",
-	    "type": "MediaPipeline",
-	    "final": true
-	  }
-	]
-      }
+        "doc": "Create an element",
+          "params": [
+            {
+              "name": "mediaPipeline",
+              "doc": "the parent :rom:cls:`MediaPipeline`",
+              "type": "MediaPipeline",
+              "final": true
+            }
+          ]
+        },
+      "methods": [
+        {
+          "name": "setText",
+          "doc": "Sets the overlay text",
+          "params": [
+            {
+              "name": "text",
+              "doc": "Text to Print",
+              "type": "String"
+            },
+            {
+              "name": "x",
+              "doc": "Position x",
+              "type": "int"
+            },
+            {
+              "name": "y",
+              "doc": "Position y",
+              "type": "int"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
